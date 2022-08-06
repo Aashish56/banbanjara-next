@@ -1,0 +1,47 @@
+const _ = require('lodash');
+const Joi = require('joi');
+Joi.objectId = require('joi-objectid')(Joi)
+import themes from "../../../database/schema/themes";
+import errorResponseHelper from "../../../Helper/errorResponse";
+import { handler } from "../../../middlewares/parser";
+export const config = {
+    api: {
+        bodyParser: false,
+    },
+};
+  
+ 
+const CONSTANTSMESSAGE = require('../../../Helper/constantsMessage')
+const schema = Joi.object({
+    _id: Joi.string().required(),
+});
+
+async function getThemes(req, res) {
+    try {
+        if (req.method != 'POST') {
+            return res.json({ status: false, error: true, message: "HTTP method not allowed" });
+        }
+        let validateData = schema.validate(req.body);
+        if (validateData.error) {
+            throw { status: false, error: validateData, message: "Invalid data" };
+        }
+
+
+        // Getting Themes from Database
+        let ThemesData = await themes.findOne({ _id: req.body._id });
+        console.log('Themes is', ThemesData)
+        if (ThemesData) {
+            // if data found check verified or not
+            res.send({ status: true, message: "Themes Details", data: ThemesData });
+        } else {
+            res.send({ status: true, message: "Themes not found" });
+        }
+
+
+    }
+    catch (e) {
+        console.log('ThemesData err', e);
+        await errorResponseHelper({ res, error: e, defaultMessage: "Error in ThemesData" });
+    }
+}
+export default handler(getThemes);

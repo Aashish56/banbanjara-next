@@ -1,0 +1,93 @@
+.listingContainer {
+  margin-top: 100px;
+  font-size: 12px;
+  height: 60vh;
+}
+
+.sectionTitle h2 {
+  position: relative;
+  margin: 0;
+  line-height: 36px;
+  font-weight: 500;
+  font-size: 30px;
+  padding-bottom: 5px;
+  text-transform: capitalize;
+}
+
+.sectionTitle h2::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 60px;
+  border-bottom: 2px solid #ff9309;
+}
+
+.tourItem {
+  margin: 15px 0;
+  border-radius: 15px;
+}
+
+.cardWrap {
+  box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  display: flex;
+  border-radius: 30px;
+}
+
+.cardImage {
+  width: 50%;
+  height: 140px !important;
+}
+
+.cardImage img {
+  width: 100%;
+  border-radius: 10px;
+  height: 100%;
+  object-fit: cover !important;
+}
+
+.cardDetails {
+  width: 60%;
+  margin: auto 0;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.cardReview {
+  color: #ff9309;
+  padding-bottom: 10px;
+}
+
+.cardName {
+  text-transform: capitalize;
+  font-weight: 450;
+  color: #212121;
+  padding-bottom: 10px;
+}
+
+.cardPrice {
+  color: #ff9309;
+  font-weight: 500;
+}
+
+.cardBtn {
+  border-radius: 15px;
+  text-transform: capitalize;
+  font-weight: 500;
+  width: max-content;
+  margin-left: 5px;
+}
+
+.btnOutlineSecondary {
+  background-color: transparent;
+  border-color: #212121;
+  color: #212121;
+}
+
+.btnOutlineSecondary:hover,
+.btnOutlineSecondary:focus {
+  background-color: #ff9309;
+  border-color: #212121;
+  color: #fff;
+}

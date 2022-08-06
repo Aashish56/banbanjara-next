@@ -1,0 +1,77 @@
+/* -------------- Banner Section ---------------- */
+
+.bannerSection {
+    margin-top: 100px;
+}
+
+
+/* .bannerSection>div {
+    margin-left: -130px;
+} */
+
+
+/* ================== Work towords Css ================ */
+
+.card {
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 3px 27px 0 rgba(0, 0, 0, 0.2);
+    margin: 0 0px 30px 5px;
+    /* width: 15rem; */
+    /* height: 20rem; */
+    /* height: "200px"; */
+    border-radius: 10px;
+    text-align: center;
+}
+
+.cardImg {
+    width: 100px;
+    height: 100px;
+}
+
+.sectionTitle {
+    position: relative;
+    margin: 0;
+    line-height: 36px;
+    font-weight: 700;
+    font-size: 22px;
+    padding-bottom: 5px;
+    text-transform: capitalize;
+}
+
+.sectionTitle::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 46%;
+    width: 60px;
+    border-bottom: 2px solid #ff9309;
+}
+
+
+/* ========================= Filters Section ======================== */
+
+.bar {
+    background-color: #d0d0d0;
+    border-radius: 70px;
+    box-shadow: 0 3px 27px 0 rgba(0, 0, 0, 0.2);
+    margin: 0 0px 30px 5px;
+    width: auto;
+    padding: 10px;
+    height: auto;
+}
+
+.bar button {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.checked {
+    color: orange;
+    height: 20px;
+}
+
+.lead {
+    font-size: 1.25rem;
+    font-weight: 300;
+}

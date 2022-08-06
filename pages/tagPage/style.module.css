@@ -1,0 +1,465 @@
+/* ===============  attraction css ===============*/
+
+
+/* page banner */
+
+.pageBannerSection {
+    margin-bottom: 40px;
+    position: relative;
+}
+
+.coverImageContainer {
+    height: 650px !important;
+}
+
+.pageBannerSection img {
+    width: 100%;
+}
+
+.tagContainer {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.centred {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.bottom {
+    position: absolute;
+    bottom: 35px;
+    right: 200px;
+    font-size: 16px;
+}
+
+.bannerScrollItem {
+    padding: 10px 0;
+}
+
+.bannerScrollItem a {
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #ffffff;
+    font-weight: 500;
+}
+
+.mapContainer {
+    position: sticky;
+    top: 100px;
+}
+
+.sectionTitle h2 {
+    position: relative;
+    margin: 0;
+    line-height: 36px;
+    font-weight: 500;
+    font-size: 30px;
+    padding-bottom: 5px;
+    text-transform: capitalize;
+}
+
+.sectionTitle h2::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 60px;
+    border-bottom: 2px solid #ff9309;
+}
+
+.youCanStayButtons {
+    font-size: 14px;
+    font-weight: 500;
+    padding: 10px 20px;
+    width: max-content;
+    border-radius: 30px;
+    /* padding: 10px 10px 10px 20px; */
+    text-transform: capitalize;
+}
+
+
+/* ---------------   Banner Image ------------ */
+
+
+/* -------------- Recently Browsed section Css --------------- */
+
+.touristWrapper .slick-slide>div {
+    margin: 0 5px;
+}
+
+.touristWrapper .slick-list {
+    margin: 0 -10px;
+}
+
+.touristCarousel {
+    margin: 0 -15px;
+}
+
+.touristItem {
+    margin: 15px 0;
+    border-radius: 15px;
+}
+
+.cardWrap {
+    box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.2);
+    /* padding: 10px; */
+    padding: 0px !important;
+    display: flex;
+    border-radius: 30px;
+}
+
+.nearByCardWrapper {
+    box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    display: flex;
+    border-radius: 30px;
+    height: 120px;
+}
+
+.cardImage {
+    width: 50%;
+}
+
+.cardImage img {
+    border-radius: 30px;
+    width: 100%;
+    height: 170px;
+}
+
+.nearByCardImage {
+    width: 40%;
+}
+
+.nearByCardImage img {
+    border-radius: 30px;
+    width: 100%;
+    height: 100px;
+}
+
+.cardDetails {
+    width: 60%;
+    margin: auto 0;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.cardReview {
+    color: #ff9309;
+    padding-bottom: 10px;
+}
+
+.cardName {
+    text-transform: capitalize;
+    font-weight: 450;
+    color: #212121;
+    padding-bottom: 10px;
+}
+
+.cardPrice {
+    color: #ff9309;
+    font-weight: 500;
+}
+
+.cardBtn {
+    border-radius: 15px;
+    text-transform: capitalize;
+    font-weight: 500;
+    width: max-content;
+    margin-left: 5px;
+}
+
+.btnOutlineSecondary {
+    background-color: transparent;
+    border-color: #212121;
+    color: #212121;
+}
+
+.btnOutlineSecondary:hover,
+.btnOutlineSecondary:focus {
+    background-color: #ff9309;
+    border-color: #212121;
+    color: #fff;
+}
+
+.mapContainer {
+    border-radius: 20px;
+}
+
+
+/* -------- Attraction Cards Css--------------- */
+
+.about {
+    border: 1px solid rgb(113, 113, 113, 0.3);
+    border-radius: 0px;
+    margin-bottom: 30px 0;
+    padding: 30px 0 0 0;
+    object-fit: cover;
+}
+
+.about h2 {
+    margin: 0;
+    font-size: 36px;
+    text-transform: capitalize;
+    color: #212121;
+    padding-left: 15px;
+    padding-bottom: 15px;
+    border-bottom: 3px solid #ff9309;
+}
+
+.about img {
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+}
+
+.about p {
+    padding: 30px 15px 0 15px;
+    font-size: 16px;
+}
+
+.about a {
+    color: #ff9309;
+    font-weight: 500;
+    text-transform: capitalize;
+    text-decoration: underline;
+}
+
+
+/* -------------- Related Articles CSS --------------- */
+
+
+/* .relatedArticles {
+    border: 1px solid rgba(113, 113, 113, 0.3);
+    border-radius: 30px;
+    padding-top: 30px;
+    margin-bottom: 15px;
+    overflow: hidden;
+}
+
+.relatedArticles h2 {
+    padding: 10px 0;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    color: #212121;
+    text-transform: capitalize;
+}
+
+.relatedArticleItem img {
+    width: 100%;
+    border-radius: 30px;
+    padding: 5px;
+    height: 127px;
+    object-fit: cover;
+}
+
+.relatedArticleItem {
+    padding: 10px 10px;
+    border-bottom: 1px solid rgba(113, 113, 113, 0.3);
+}
+
+.articleItemName {
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: capitalize;
+    padding-top: 10px;
+} */
+
+.Stays img {
+    border-radius: 50px;
+}
+
+.pageAd {
+    padding: 20px 0;
+}
+
+.pageAd img {
+    border-radius: 30px;
+    width: 100%;
+}
+
+
+/* -------------- Promotional Section CSS ----------- */
+
+.section {
+    margin-bottom: 80px;
+}
+
+.promoItem {
+    margin: 15px 0;
+    display: flex;
+}
+
+.promoImage {
+    height: 300px;
+    width: 100%;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.promoImage a {
+    display: block;
+    height: 100%;
+}
+
+.promoImage a img {
+    display: block;
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+}
+
+
+/* -------------- travelGoes Section Css -------------- */
+
+.pageTravelogues {
+    margin-bottom: 40px;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.tourItem {
+    margin: 15px 0;
+}
+
+.tourWrap {
+    background-color: #fff;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.traveloguesWrap {
+    box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.1);
+}
+
+.traveloguesImage img {
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    height: 230px;
+    object-fit: cover;
+    width: 100%;
+}
+
+.tourSummery {
+    padding: 15px;
+    position: relative;
+}
+
+.tourSummery h4 {
+    font-size: 16px;
+}
+
+.tourTitle {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+
+/* --------------- Related Destination CSS ---------------------- */
+
+.relatedPlaces {
+    margin-bottom: 40px;
+}
+
+.relatedPlacesCarousel {
+    margin: 0 -15px;
+}
+
+.relatedPlacesItem {
+    position: relative !important;
+}
+
+.relatedPlacesItem img {
+    border-radius: 20px;
+    height: 225px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.relatedPlacesText {
+    position: absolute;
+    top: 31%;
+    left: 50%;
+    transform: translate(-50%) !important;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.relatedPlacesText h2 {
+    font-size: 36px;
+    text-shadow: 3px 3px 5px rgb(34, 34, 34);
+    color: #ffffff;
+    font-weight: 900;
+}
+
+.relatedPlacesBtn {
+    background-color: #ffffff;
+    color: #717171;
+    border: none;
+    border-radius: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+/* -------------- trek Section CSS -------------- */
+
+.trekMargin {
+    margin-bottom: 40px;
+}
+
+.touristExploringCarousel {
+    margin: 0 -10px;
+    padding-top: 50px;
+}
+
+.touristExploringItem {
+    padding: 0 10px;
+    border-radius: 15px;
+}
+
+.touristExploringWrap {
+    border: 1px solid #dddddd;
+    border-radius: 20px;
+    min-height: 110px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.touristExploringWrap a {
+    direction: block;
+    padding: 20px;
+    text-align: center;
+}
+
+.touristExploringWrap h5 {
+    color: #212121;
+    font-size: 16px;
+}
+
+.touristExploringWrap p {
+    color: #717171;
+    margin: 0;
+}
+
+
+/* ------------------- Utilities Classes ----------------- */
+
+@media (max-width: 767px) {
+    .hiddenMobile {
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .coverImageContainer {
+        height: auto !important;
+    }
+}

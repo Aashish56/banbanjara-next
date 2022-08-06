@@ -1,0 +1,16 @@
+.actions-column {
+    text-align: center;
+  }
+  .cardHome {
+    margin: auto;
+  }
+  .dashboard {
+    flex: 1;
+  }
+  .tooltip {
+    font-size: 1.3rem !important;
+    color: cornflowerblue !important;
+    background-color: burlywood !important;
+    padding: 1.2rem !important;
+  }
+  
